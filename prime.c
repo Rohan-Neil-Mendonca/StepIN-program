@@ -1,11 +1,11 @@
 #include <stdio.h>
-int prime(int a);
+int prime(int a);         
 
 int main() {
 
     int x;
     int n;
-    printf("Enter a positive integer: \n");
+    printf("Enter a positive integer: \n");     //Enter number to check for prime
     scanf("%d", &n);
     x=prime(n);
     //printf("%d",x);
@@ -22,7 +22,7 @@ int main() {
 
 
 
-int prime(int a){
+int prime(int a){             //function for checking for prime numbers
     int i, flag = 0;
     for (i = 2; i <= a / 2; ++i) {
 
